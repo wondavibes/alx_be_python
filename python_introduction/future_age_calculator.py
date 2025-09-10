@@ -1,4 +1,4 @@
-current_age = input("How od are you? ")
+current_age = input("How old are you? ")
 
 age = int(current_age) + 27
 
