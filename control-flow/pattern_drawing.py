@@ -1,7 +1,7 @@
 
 def main():
-    size_input = input("Enter the size of the pattern: ")
-    size = int(size_input)
+    size = int(input("Enter the size of the pattern: "))
+
 
     row = 0
     while row < size:
