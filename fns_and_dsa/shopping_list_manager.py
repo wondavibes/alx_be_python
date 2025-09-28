@@ -14,7 +14,7 @@ def main():
         choice = input("Enter your choice: ")
         if choice == "1":
             while True:
-                item = input("enter an item or enter ** to exit: ")
+                item = input("Enter the item to add: ")
                 if item == "**":
                     break
                 else:
