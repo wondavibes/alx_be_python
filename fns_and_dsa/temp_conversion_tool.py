@@ -21,7 +21,7 @@ def main():
         converted = convert_to_celsius(float(temp))
         print(f"{temp}°F is {converted:.2f}°C")
     else:
-        print("Invalid input. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
+        print("Invalid input. Please enter a numeric value.")
 
 
 if __name__ == "__main__":
