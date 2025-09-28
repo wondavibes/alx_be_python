@@ -1,15 +1,15 @@
-def perform_operation(x,y,operation):
+def perform_operation(num1,num2,operation):
     match operation:
         case "add":
-            return x + y
+            return num1 + num2
         case "subtract":
-            return x - y
-        case "multiply":
-            return x * y
+            return num1 - num2
+        case "multiplnum2":
+            return num1 * num2
         case "divide":
-            if y != 0:
-                return x / y
+            if num2 != 0:
+                return num1 / num2
             else:
-                return "cannot divide by zero"
+                return "cannot divide bnum2 zero"
         case _:
             return "Invalid operation"
